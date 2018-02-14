@@ -5,7 +5,7 @@ import AdminRootContainer from '@/containers/AdminRootContainer';
 import AppHomePage from '@/components/AppHomePage';
 import AdminHomePage from '@/components/AdminHomePage';
 
-const routes = [
+const routes =
     {
         path: '/',
         async action({next}) {
@@ -47,8 +47,7 @@ const routes = [
                 ]
             },
         ],
-    }
-];
+    };
 
 export const basename = '';
 
